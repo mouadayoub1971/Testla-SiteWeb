@@ -82,6 +82,24 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+  name: "Conception d’un système GMAO basé sur l’AMDEC",
+  image: "/projects/agent.webp",
+  blurImage: "/projects/blur/agent.webp",
+  description: "Projet d'ingénierie visant à développer un système de gestion de maintenance assistée par ordinateur (GMAO), en intégrant l'analyse des modes de défaillance, de leurs effets et de leur criticité (AMDEC).",
+  gradient: ["#004d00", "#66cc66"],
+  url: "#",
+  tech: ["AMDEC", "GMAO", "UML"]
+},
+{
+  name: "La réalisation d’un réducteur pour un élévateur à godets",
+  image: "/projects/agent.webp",
+  blurImage: "/projects/blur/agent.webp",
+  description: "Étude, dimensionnement et conception mécanique d’un réducteur adapté à un système d’élévation par godets, en prenant en compte les contraintes de couple et de rendement.",
+  gradient: ["#660000", "#ff6666"],
+  url: "#",
+  tech: ["CATIA", "SolidWorks", "Calculs mécaniques"]
+},
+  {
     name: "Application de Gestion de Club Sportif",
     image: "/projects/agent.webp",
     blurImage: "/projects/blur/agent.webp",
@@ -94,7 +112,7 @@ export const PROJECTS = [
     name: "NASI7TI - Hackathon Orange Digital",
     image: "/projects/agent.webp",
     blurImage: "/projects/blur/agent.webp",
-    description: "Application mobile de sensibilisation à la santé, projet réalisé dans le cadre d’un hackathon national.",
+    description: "Application mobile de sensibilisation à la santé, projet réalisé dans le cadre d un hackathon national.",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "#",
     tech: ["figma", "canva"],
