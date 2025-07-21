@@ -107,11 +107,20 @@ export const PROJECTS = [
   gradient: ["#660000", "#ff6666"],
   url: "#",
   tech: ["catia", "solid"]
-},
+  },
+{
+    name: "Câblage de moteurs électriques",
+    image: "/projects/projet3.jpg",
+    blurImage: "/projects/blur/projet3.jpg",
+    description: "Projet académique sur l\'accouplement et le démarrage de moteurs en différents couplages.",
+    gradient: ["#000066", "#6699FF"],
+    url: "#",
+    tech: ["sim", "catia", "arduino"],
+  },
   {
     name: "Application de Gestion de Club Sportif",
-    image: "/projects/agent.webp",
-    blurImage: "/projects/blur/agent.webp",
+    image: "/projects/cs.jpg",
+    blurImage: "/projects/blur/cs.jpg",
     description: "Application console en C++ pour gérer un club sportif, développée en binôme.",
     gradient: ["#142D46", "#2E4964"],
     url: "#",
@@ -119,22 +128,14 @@ export const PROJECTS = [
   },
   {
     name: "NASI7TI - Hackathon Orange Digital",
-    image: "/projects/agent.webp",
-    blurImage: "/projects/blur/agent.webp",
+    image: "/projects/hack.jpg",
+    blurImage: "/projects/blur/hack.jpg",
     description: "Application mobile de sensibilisation à la santé, projet réalisé dans le cadre d un hackathon national.",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "#",
     tech: ["figma", "canva"],
   },
-  {
-    name: "Câblage de moteurs électriques",
-    image: "/projects/agent.webp",
-    blurImage: "/projects/blur/agent.webp",
-    description: "Projet académique sur l\'accouplement et le démarrage de moteurs en différents couplages.",
-    gradient: ["#000066", "#6699FF"],
-    url: "#",
-    tech: ["sim", "catia", "arduino"],
-  },
+  
 ];
 
 export const WORK_CONTENTS = {
