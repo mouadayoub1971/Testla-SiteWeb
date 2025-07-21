@@ -57,17 +57,26 @@ export const SOCIAL_LINKS = [
 
 export const SKILLS = {
   languagesAndTools: [
-    "python",
-    "cpp",
-    "mysql",
-    "arduino",
-    "psim",
-    "catia",
-    "word",
-    "excel",
-    "powerpoint",
-  ],
-  librariesAndFrameworks: [],
+"python",
+"cpp",
+"mysql",
+"arduino",
+"catia",
+"word",
+"excel",
+"powerpoint",
+"amdec",
+"uml",
+"me",
+"ae",
+"adobe",
+"revet",
+    "autocad",
+"solid"
+],
+  librariesAndFrameworks: ["vba",
+"sim", 
+"r"],
   databases: ["mysql"],
   operatingSystems: ["windows"],
   other: [
@@ -83,21 +92,21 @@ export const SKILLS = {
 export const PROJECTS = [
   {
   name: "Conception d’un système GMAO basé sur l’AMDEC",
-  image: "/projects/agent.webp",
-  blurImage: "/projects/blur/agent.webp",
+  image: "/projects/projet2.jpg",
+  blurImage: "/projects/blur/projet2.webp",
   description: "Projet d'ingénierie visant à développer un système de gestion de maintenance assistée par ordinateur (GMAO), en intégrant l'analyse des modes de défaillance, de leurs effets et de leur criticité (AMDEC).",
   gradient: ["#004d00", "#66cc66"],
   url: "#",
-  tech: ["AMDEC", "GMAO", "UML"]
+  tech: ["amdec", "uml"]
 },
 {
   name: "La réalisation d’un réducteur pour un élévateur à godets",
-  image: "/projects/agent.webp",
-  blurImage: "/projects/blur/agent.webp",
+  image: "/projects/projet1.jpg",
+  blurImage: "/projects/blur/projet1.webp",
   description: "Étude, dimensionnement et conception mécanique d’un réducteur adapté à un système d’élévation par godets, en prenant en compte les contraintes de couple et de rendement.",
   gradient: ["#660000", "#ff6666"],
   url: "#",
-  tech: ["CATIA", "SolidWorks", "Calculs mécaniques"]
+  tech: ["catia", "solid"]
 },
   {
     name: "Application de Gestion de Club Sportif",
@@ -124,7 +133,7 @@ export const PROJECTS = [
     description: "Projet académique sur l\'accouplement et le démarrage de moteurs en différents couplages.",
     gradient: ["#000066", "#6699FF"],
     url: "#",
-    tech: ["psim", "catia", "arduino"],
+    tech: ["sim", "catia", "arduino"],
   },
 ];
 
