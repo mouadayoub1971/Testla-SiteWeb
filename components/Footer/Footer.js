@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="w-full h-full pt-32">
           <div className="section-container flex flex-col h-full justify-end z-10 items-center py-12">
             <h1 className="font-medium text-3xl md:text-4xl text-center">
-              N'hésitez pas à vous connecter sur les réseaux sociaux.
+              N&apos;hésitez pas à vous connecter sur les réseaux sociaux.
             </h1>
             <div className="text-center">
               <Profiles />

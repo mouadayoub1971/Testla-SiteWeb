@@ -56,12 +56,11 @@ const About1 = ({ clientHeight }) => {
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
           <span className="about-1 leading-tight">
-      Je suis un ingénieur passionné par  génie industriel, engagé dans l'optimisation des systèmes de production et la recherche de solutions durables et efficaces.{" "}
-    </span>
-    <span className="about-2 leading-tight">
-      Je conçois, analyse et améliore les processus industriels en combinant les principes du lean manufacturing, la gestion de la qualité et la maintenance préventive. Grâce à une approche systémique, je m'efforce d'augmenter la performance globale (OEE), de réduire les gaspillages et d'assurer une meilleure fiabilité des équipements tout en intégrant les technologies de l'industrie 4.0.{" "}
-    </span>
-
+            Je suis un ingénieur passionné par  génie industriel, engagé dans l&apos;optimisation des systèmes de production et la recherche de solutions durables et efficaces.{" "}
+          </span>
+          <span className="about-2 leading-tight">
+            Je conçois, analyse et améliore les processus industriels en combinant les principes du lean manufacturing, la gestion de la qualité et la maintenance préventive. Grâce à une approche systémique, je m&apos;efforce d&apos;augmenter la performance globale (OEE), de réduire les gaspillages et d&apos;assurer une meilleure fiabilité des équipements tout en intégrant les technologies de l&apos;industrie 4.0.{" "}
+          </span>
         </h1>
       </div>
     </section>
